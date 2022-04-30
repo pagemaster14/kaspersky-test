@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaspersky</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="background-image"></div>
+        <header class="header">
+            <a href="https://www.kaspersky.ru" target="blank" class="header__link"><img src="./images/header-logo.svg"
+                    alt="Логотип" class="header__logo"></a>
+            <button class="currency__button">GBP</button>
+            <div class="currency__change">
+                <span class="currency__span" onclick="changeCurrency(this.textContent)">RUB</span>
+                <span class="currency__span" onclick="changeCurrency(this.textContent)">USD</span>
+                <span class="currency__span" onclick="changeCurrency(this.textContent)">GBP</span>
+            </div>
+        </header>
+        <main class="content">
+            <section class="description">
+                <h1 class="description__title">Don’t let malware defeat you</h1>
+                <div class="description__line"></div>
+                <p class="description__subtitle">Protect your devices with anti-malware made for gamers.</p>
+                <ul class="description__list">
+                    <li class="description__list-text"><span class="description__list-span">Gaming mode:</span> Ensures
+                        optimal
+                        PC performance while you play</li>
+                    <li class="description__list-text"><span class="description__list-span">100% detection rate:</span>
+                        Never misses a threat</li>
+                    <li class="description__list-text"><span class="description__list-span">Cutting-edge
+                            cybersecurity:</span> Runs on AI
+                        overseen by world-leading threat analysts</li>
+                </ul>
+            </section>
+            <section class="compatible">
+                <h2 class="compatible__title">Compatible with:</h2>
+                <div class="compatible__icons">
+                    <img src="./images/windows_logos_PNG25.svg" class="compatible__icon">
+                    <img src="./images/1280px-MacOS_wordmark_(2017).svg" class="compatible__icon">
+                    <img src="./images/Android_symbol_green_RGB.svg" class="compatible__icon">
+                    <img src="./images/IOS_logo_2010.svg" class="compatible__icon">
+                </div>
+            </section>
+            <section class="buy">
+                <p class="buy__discount">Save 20%</p>
+                <img src="./images/Group.svg" class="buy__img">
+                <h2 class="buy__title">Kaspersky Internet Security</h2>
+                <div class="buy__stars">
+                    <img src="./images/Starfull.svg" class="buy__star">
+                    <img src="./images/Starfull.svg" class="buy__star">
+                    <img src="./images/Starfull.svg" class="buy__star">
+                    <img src="./images/Starfull.svg" class="buy__star">
+                    <img src="./images/Starhalf.svg" class="buy__star">
+                </div>
+                <p class="buy__reviews">(1503 reviews)</p>
+                <div class="buy__line"></div>
+                <div class="buy__price">
+                    <p class="buy__old-price">£34.<span class="buy__old-price-span">99</span></p>
+                    <p class="buy__new-price">£35.<span class="buy__new-price-span">99</span></p>
+                </div>
+                <div class="buy__line"></div>
+                <div class="buy__list-container">
+                    <button class="buy__list-button">3 Devices, 1 year</button>
+                    <ul class="buy__list">
+                        <li class="buy__list-amount" onclick="changeProduct(this.textContent)">1 Device, 2 Years £43.99
+                        </li>
+                        <li class="buy__list-amount" onclick="changeProduct(this.textContent)">3 Devices, 1 Year £35.99
+                        </li>
+                        <li class="buy__list-amount" onclick="changeProduct(this.textContent)">3 Devices, 2 Years £63.99
+                        </li>
+                        <li class="buy__list-amount" onclick="changeProduct(this.textContent)">5 Devices, 1 Year £43.99
+                        </li>
+                        <li class="buy__list-amount" onclick="changeProduct(this.textContent)">5 Devices, 2 Years £71.99
+                        </li>
+                    </ul>
+                </div>
+                <button class="buy__button">Buy Now</button>
+            </section>
+            <section class="preview">
+            </section>
+            <section class="buy_sticky-360-small">
+                <h2 class="buy_sticky-360-small__title">Kaspersky Internet Security</h2>
+                <p class="buy_sticky-360-small__list-amount">£35.99 - 3 Devices, 1 year</p>
+                <button class="buy_sticky-360-small__button">Buy Now</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="./pages/index.js"></script>
+
+</body>
+
+</html>
